@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    margin: 0px;
+    font-family: "Montserrat",sans-serif;
+    background-color: #F5F5DC;
+}
+
+/**************************************************************/
+/*main stylesheet format for courier page*/
+.logo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+input[type=text]{
+    margin-left: 60%;
+    margin-right: auto;
+    font-family: "Montserrat",sans-serif;
+    color:rgba(0, 0, 0, 0.75);
+    padding: 8px;
+    min-width: 200px;
+    border: 2px solid rgba(0, 136, 169, 0.8);
+    border-radius: 20px;
+}
+
+.topnav{
+    background-color: #FFA500;
+    overflow: hidden;
+    padding:20px;
+    margin: none;
+    color: white;
+    display: flex;
+}
+
+.topnav p{
+    margin-left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topnav button{
+    margin-top: 10px;
+    margin-left: 30%;
+    width: 100px;
+    height: 40px
+}
+
+.leftcont{
+    padding: 5% 2%;
+    top: 105px;
+    height: auto;
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+}
+
+#subcont{
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.imgcenter{
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+.txtcenter{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#boxa{
+    float: none;
+    padding: 2px;
+    text-align: center;
+    height: auto;
+	margin: 4px 4px;
+}
+
+#box{
+    padding: 2px;
+    text-align: left;
+	width: 40%;
+    height: auto;
+	margin: 4px 4px;
+	display: inline-block;
+}
+
+/**************************************************************/
+/*main courier content stylesheet*/
+.rightcont{
+    width: 80%;
+    margin-top: none;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.rightcont h2{
+    padding-top: 10px;
+    margin-right: 65%;
+    color:#0088a9;
+}
+
+#searchcont{
+    margin: 30px; 
+}
+
+.tstyle{
+    margin-left: 20%;
+    margin-right: auto;
+    float: none;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tstyle thead tr{
+    background-color: rgba(0, 136, 169, 0.8);
+    color: white;
+    text-align: left;
+}
+
+.tstyle th, td{
+    padding: 12px 15px;
+}
+
+.tstyle tbody tr{
+    text-align: left;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+.tstyle tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.tstyle tbody tr:last-of-type{
+    border-bottom: 2px solid rgba(0, 136, 169, 0.8);
+}
+
+button{
+    font-family: "Montserrat",sans-serif;
+    padding: 8px;
+    margin: 2px;
+    background-color: rgba(0, 136, 169, 0.8);
+    color: white;
+    border-radius: 12px;
+    border:rgba(0, 136, 169, 0.8);
+}
+
+button:hover{
+    transition: 0.3s ease;
+    color: rgba(0, 136, 169, 0.8);
+    background-color: white;
+    font-weight: bold;
+}
+
+#btn1:hover{
+    background-color: #77dd77;
+    color: white;
+}
+
+#btn2:hover{
+    background-color: tomato;
+    color: white;
+}
+
+/**************************************************************/
+/*View Parcel stylesheet*/
+#parcelcont{
+    display: flex;
+    text-align: left;
+    margin: 1% 10%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#parcelcont img{
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+}
+
+#parcelcont fieldset{
+    min-width: 700px;
+    float: right;
+}
+
+#parcelcont input[type=text]{
+    height: 10px;
+    margin-left: 5%;
+}
+
+/**************************************************************/
+/*Track and Trace stylesheet*/
+.bodcont{
+    padding: 5%;
+    display: inline;
+    text-align: center;
+}
+
+.bodcont img{
+    width: 250px;
+    height: auto;
+}
+
+#cont1 h2{
+    color: #0088a9;
+    font-size: 40px;
+}
+
+#cont1 p{
+    color:rgba(0, 0, 0, 0.7);
+}
+
+#cont2{
+    text-align: center;
+}
+
+#cont2 input[type=text]{
+    margin: 0px;
+    padding: 10px;
+    font-family: "Montserrat",sans-serif;
+    color:rgba(0, 0, 0, 0.75);
+    min-width: 400px;
+    border: 2px solid rgba(0, 136, 169, 0.8);
+    border-radius: 20px;
+}
